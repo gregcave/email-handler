@@ -46,7 +46,9 @@ The solution that has been developed does contain a number of limitations:
 * There is no way for staff members at Travotic to track and make updates to customer enquiries, ideally this would be done with the use of a ticket-based system, where both staff members and customers can add comments, take actions on the ticket and more.
 
 ## Scalability
-In order to properly scale out this solution, I would address the limitations addressed above. Furthermore, instead of running the application using task scheduling (every minute), I would implement a webhook (https://laravel-news.com/laravel-inbound-email), that responds to the any email messages almost instantly. I would also implement a form of auto-scaling (https://aws.amazon.com/autoscaling/) to ensure that the component does not fail, as well as a database system that could be used to record and track all email messages.
+In order to properly scale out this solution, I would address the limitations addressed above. Furthermore, instead of running the application using task scheduling (every minute), I would implement a webhook (https://laravel-news.com/laravel-inbound-email), that responds to the any email messages almost instantly.
+
+I would also implement a form of auto-scaling (https://aws.amazon.com/autoscaling/) to ensure that the component does not fail, as well as a database system that could be used to record and track all email messages.
 
 ### PoC Stages / Live Environment
 As previously mentioned, if this solution was to be deployed on a live environment, a ticket-based system should be implemented that would be used to track all data and provide both customers and staff members with the ability to respond and close the ticket.
