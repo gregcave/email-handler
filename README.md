@@ -51,6 +51,6 @@ In order to properly scale out this solution, I would address the limitations ad
 I would also implement a form of auto-scaling (https://aws.amazon.com/autoscaling/) to ensure that the component does not fail, as well as a database system that could be used to record and track all email messages.
 
 ### PoC Stages / Live Environment
-As previously mentioned, if this solution was to be deployed on a live environment, a ticket-based system should be implemented that would be used to track all data and provide both customers and staff members with the ability to respond and close the ticket.
+If this solution was to be deployed on a live environment, a ticket-based system should be implemented that would be used to track all data and provide both customers and staff members with the ability to respond and close the ticket.
 
 I would also expand the functionality of the decision engine to generate and send the correct response to a variety of customer messages, and also implement functionality that provides a generic message to the customers, which contain a set of responses that a customer is able to choose from.
