@@ -53,4 +53,4 @@ I would also implement a form of auto-scaling (https://aws.amazon.com/autoscalin
 ### PoC Stages / Live Environment
 If this solution was to be deployed on a live environment, a ticket-based system should be implemented that would be used to track all data and provide both customers and staff members with the ability to respond and close the ticket.
 
-I would also expand the functionality of the decision engine to generate and send the correct response to a variety of customer messages, and also implement functionality that provides a generic message to the customers, which contain a set of responses that a customer is able to choose from.
+I'd expand the functionality of the decision engine to generate and send the correct response to a variety of customer messages, and implement functionality that provides a generic message to the customers, which has a set of responses for a customer to choose from.
