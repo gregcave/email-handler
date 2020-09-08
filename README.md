@@ -1,4 +1,4 @@
-# travotic
+# email-sender
 A simple Laravel app that generates a set message from a series of responses based on a user's email correspondence
 
 ## Project Overview
